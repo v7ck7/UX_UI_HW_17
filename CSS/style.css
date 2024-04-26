@@ -3,30 +3,57 @@
     vertical-align: top;
 }
 
-.logo{
-    width: 23%;
-    padding: 1%;
+.logo img{
+    width: 72px;
+    height: auto;
+    padding: 0%;
     text-align: center;
+    background-color: rgb(167, 136, 229);
 }
 
 nav{
-    width: 73%;
+    width: 92%;
     padding: 1%;
+    background-color: rgb(167, 136, 229);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul{
     width: 50%;
     margin-left: auto;
 }
+li{
+    padding-inline: 15px;
+}
 
 .heroImg{
     height: 600px;
     padding: 25%;
+    background-image: url("images/about me background img.png");
+    background-size: cover;
+    background-color:rgb(136, 145, 229);
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
+}
+.content img{
+    width: 350px;
+    height: auto;
+}
+.content p{
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 125px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(152, 183, 246);
+    border-color: blueviolet;
 }
 
 footer{
@@ -41,6 +68,8 @@ footer ul{
 
 footer li{
     padding: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
